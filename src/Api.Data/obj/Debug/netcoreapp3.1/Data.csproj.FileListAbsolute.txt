@@ -1,0 +1,9 @@
+C:\Users\Jessica\Documents\Projetos\netcore_api\src\Api.Data\bin\Debug\netcoreapp3.1\Data.deps.json
+C:\Users\Jessica\Documents\Projetos\netcore_api\src\Api.Data\bin\Debug\netcoreapp3.1\Data.dll
+C:\Users\Jessica\Documents\Projetos\netcore_api\src\Api.Data\bin\Debug\netcoreapp3.1\Data.pdb
+C:\Users\Jessica\Documents\Projetos\netcore_api\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csprojAssemblyReference.cache
+C:\Users\Jessica\Documents\Projetos\netcore_api\src\Api.Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfoInputs.cache
+C:\Users\Jessica\Documents\Projetos\netcore_api\src\Api.Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfo.cs
+C:\Users\Jessica\Documents\Projetos\netcore_api\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csproj.CoreCompileInputs.cache
+C:\Users\Jessica\Documents\Projetos\netcore_api\src\Api.Data\obj\Debug\netcoreapp3.1\Data.dll
+C:\Users\Jessica\Documents\Projetos\netcore_api\src\Api.Data\obj\Debug\netcoreapp3.1\Data.pdb
