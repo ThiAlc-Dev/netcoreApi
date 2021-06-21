@@ -309,6 +309,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {}
         }
+      },
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
       }
     }
   },
@@ -930,10 +940,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../Api.Domain/Domain.csproj",
+      "msbuildProject": "../Api.Domain/Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 3.1.16",
       "Microsoft.EntityFrameworkCore.Design >= 3.1.16",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.16",
@@ -969,7 +985,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Projetos\\Particular\\netcoreApi\\src\\Api.Domain\\Domain.csproj": {
+              "projectPath": "D:\\Projetos\\Particular\\netcoreApi\\src\\Api.Domain\\Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -19,3 +19,6 @@ D:\Projetos\Particular\netcoreApi\src\Api.Data\obj\Debug\netcoreapp3.1\Data.pdb
 D:\Projetos\Particular\netcoreApi\src\Api.Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.json
 D:\Projetos\Particular\netcoreApi\src\Api.Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.dev.json
 D:\Projetos\Particular\netcoreApi\src\Api.Data\obj\Debug\netcoreapp3.1\Data.genruntimeconfig.cache
+D:\Projetos\Particular\netcoreApi\src\Api.Data\bin\Debug\netcoreapp3.1\Domain.dll
+D:\Projetos\Particular\netcoreApi\src\Api.Data\bin\Debug\netcoreapp3.1\Domain.pdb
+D:\Projetos\Particular\netcoreApi\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csproj.CopyComplete
