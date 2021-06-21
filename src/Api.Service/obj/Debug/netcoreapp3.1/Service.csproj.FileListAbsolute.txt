@@ -6,3 +6,12 @@ C:\Users\Jessica\Documents\Projetos\netcore_api\src\Api.Service\obj\Debug\netcor
 C:\Users\Jessica\Documents\Projetos\netcore_api\src\Api.Service\obj\Debug\netcoreapp3.1\Service.csproj.CoreCompileInputs.cache
 C:\Users\Jessica\Documents\Projetos\netcore_api\src\Api.Service\obj\Debug\netcoreapp3.1\Service.dll
 C:\Users\Jessica\Documents\Projetos\netcore_api\src\Api.Service\obj\Debug\netcoreapp3.1\Service.pdb
+D:\Projetos\Particular\netcoreApi\src\Api.Service\bin\Debug\netcoreapp3.1\Service.deps.json
+D:\Projetos\Particular\netcoreApi\src\Api.Service\bin\Debug\netcoreapp3.1\Service.dll
+D:\Projetos\Particular\netcoreApi\src\Api.Service\bin\Debug\netcoreapp3.1\Service.pdb
+D:\Projetos\Particular\netcoreApi\src\Api.Service\obj\Debug\netcoreapp3.1\Service.csprojAssemblyReference.cache
+D:\Projetos\Particular\netcoreApi\src\Api.Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfoInputs.cache
+D:\Projetos\Particular\netcoreApi\src\Api.Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfo.cs
+D:\Projetos\Particular\netcoreApi\src\Api.Service\obj\Debug\netcoreapp3.1\Service.csproj.CoreCompileInputs.cache
+D:\Projetos\Particular\netcoreApi\src\Api.Service\obj\Debug\netcoreapp3.1\Service.dll
+D:\Projetos\Particular\netcoreApi\src\Api.Service\obj\Debug\netcoreapp3.1\Service.pdb

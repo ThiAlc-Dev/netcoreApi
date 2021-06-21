@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GVQjRP3XX8P/0XXC1AkD6TuIBW0Pemwv0vfVtQ3Mem0Nemn899xyLlPWxayDqr12iJ4Q+PjOzAZq5zbvRSnTLg==",
+  "dgSpecHash": "/wUPYCXSajoWeJfPug7HQhpZQlxavcsZnUp6tmQRCymRslJ4+c0pvK0UpJoFS95w1JohbpffxBaL7Ruq71vAVw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jessica\\Documents\\Projetos\\netcore_api\\src\\Api.Service\\Service.csproj",
+  "projectFilePath": "D:\\Projetos\\Particular\\netcoreApi\\src\\Api.Service\\Service.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
