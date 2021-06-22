@@ -11,6 +11,7 @@ namespace Api.Domain.Interfaces
          Task<T> UpdateAsync (T item);
          Task<bool> DeletetAsync (Guid Id);
          Task<T> SelectAsync (Guid Id);
-         Task<IEnumerable<T>> SelectAsync ();
+         Task<IEnumerable<T>> SelectAllAsync ();
+         Task<bool> ExistAsync(Guid Id);
     }
 }
