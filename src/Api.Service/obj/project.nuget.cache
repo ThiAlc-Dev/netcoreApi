@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "cEL4Da/jO5GQvej396kMhKeM0+S9vfNk1Z1HflI6eCkfO6uiv7w8WBC4/mVD2WIzp0a16T1bZp0/c21TUwbHYA==",
+  "dgSpecHash": "H6qMt+BwoB0BJ4OjleUJncONQ3mSuNZda3Hhryte/8DC+sUGNsEPhev8jhRGA5EeFI8lU2m0T25pOPe9mpTtGw==",
   "success": true,
   "projectFilePath": "D:\\Projetos\\Particular\\netcoreApi\\src\\Api.Service\\Service.csproj",
   "expectedPackageFiles": [
@@ -10,7 +10,7 @@
     "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\microsoft.entityframeworkcore\\3.1.16\\microsoft.entityframeworkcore.3.1.16.nupkg.sha512",
     "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\3.1.16\\microsoft.entityframeworkcore.abstractions.3.1.16.nupkg.sha512",
     "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\3.1.16\\microsoft.entityframeworkcore.analyzers.3.1.16.nupkg.sha512",
-    "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\3.1.0\\microsoft.entityframeworkcore.relational.3.1.0.nupkg.sha512",
+    "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\3.1.16\\microsoft.entityframeworkcore.relational.3.1.16.nupkg.sha512",
     "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.16\\microsoft.extensions.caching.abstractions.3.1.16.nupkg.sha512",
     "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\microsoft.extensions.caching.memory\\3.1.16\\microsoft.extensions.caching.memory.3.1.16.nupkg.sha512",
     "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.16\\microsoft.extensions.configuration.3.1.16.nupkg.sha512",

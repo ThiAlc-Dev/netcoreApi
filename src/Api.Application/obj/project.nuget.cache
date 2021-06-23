@@ -1,16 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "hjItbRWdyDE9RMMIVPW4T+CstBuZBNxLIEepff/ddZMXwfCm9g7vrxkNzXQ2z5U0IHKb6YUDUnZ0uIA9W1AiaA==",
+  "dgSpecHash": "/vFvxpxDFahVb6bmusVtXO1wUoJYg09UYTvxcPpWkf5456VvT8o4o3/NryCN8AJUbzB4a4xhAaLUP4rhJ5Z8Jw==",
   "success": true,
   "projectFilePath": "D:\\Projetos\\Particular\\netcoreApi\\src\\Api.Application\\application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
     "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\microsoft.entityframeworkcore\\3.1.16\\microsoft.entityframeworkcore.3.1.16.nupkg.sha512",
     "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\3.1.16\\microsoft.entityframeworkcore.abstractions.3.1.16.nupkg.sha512",
     "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\3.1.16\\microsoft.entityframeworkcore.analyzers.3.1.16.nupkg.sha512",
-    "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\3.1.0\\microsoft.entityframeworkcore.relational.3.1.0.nupkg.sha512",
+    "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\3.1.16\\microsoft.entityframeworkcore.relational.3.1.16.nupkg.sha512",
     "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.16\\microsoft.extensions.caching.abstractions.3.1.16.nupkg.sha512",
     "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\microsoft.extensions.caching.memory\\3.1.16\\microsoft.extensions.caching.memory.3.1.16.nupkg.sha512",
     "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.16\\microsoft.extensions.configuration.3.1.16.nupkg.sha512",
@@ -28,7 +30,8 @@
     "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\pomelo.jsonobject\\2.2.1\\pomelo.jsonobject.2.2.1.nupkg.sha512",
     "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\system.collections.immutable\\1.7.1\\system.collections.immutable.1.7.1.nupkg.sha512",
     "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
-    "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+    "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
+    "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

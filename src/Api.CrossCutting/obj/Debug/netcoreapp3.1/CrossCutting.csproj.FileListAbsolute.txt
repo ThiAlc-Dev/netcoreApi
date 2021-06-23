@@ -10,9 +10,16 @@ C:\Users\Jessica\Documents\Projetos\netcore_api\src\Api.CrossCutting\obj\Debug\n
 D:\Projetos\Particular\netcoreApi\src\Api.CrossCutting\bin\Debug\netcoreapp3.1\CrossCutting.deps.json
 D:\Projetos\Particular\netcoreApi\src\Api.CrossCutting\bin\Debug\netcoreapp3.1\CrossCutting.dll
 D:\Projetos\Particular\netcoreApi\src\Api.CrossCutting\bin\Debug\netcoreapp3.1\CrossCutting.pdb
-D:\Projetos\Particular\netcoreApi\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.csprojAssemblyReference.cache
 D:\Projetos\Particular\netcoreApi\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.AssemblyInfoInputs.cache
 D:\Projetos\Particular\netcoreApi\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.AssemblyInfo.cs
 D:\Projetos\Particular\netcoreApi\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.csproj.CoreCompileInputs.cache
 D:\Projetos\Particular\netcoreApi\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.dll
 D:\Projetos\Particular\netcoreApi\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.pdb
+D:\Projetos\Particular\netcoreApi\src\Api.CrossCutting\bin\Debug\netcoreapp3.1\Data.dll
+D:\Projetos\Particular\netcoreApi\src\Api.CrossCutting\bin\Debug\netcoreapp3.1\Domain.dll
+D:\Projetos\Particular\netcoreApi\src\Api.CrossCutting\bin\Debug\netcoreapp3.1\Service.dll
+D:\Projetos\Particular\netcoreApi\src\Api.CrossCutting\bin\Debug\netcoreapp3.1\Domain.pdb
+D:\Projetos\Particular\netcoreApi\src\Api.CrossCutting\bin\Debug\netcoreapp3.1\Service.pdb
+D:\Projetos\Particular\netcoreApi\src\Api.CrossCutting\bin\Debug\netcoreapp3.1\Data.pdb
+D:\Projetos\Particular\netcoreApi\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.csproj.CopyComplete
+D:\Projetos\Particular\netcoreApi\src\Api.CrossCutting\obj\Debug\netcoreapp3.1\CrossCutting.csproj.AssemblyReference.cache

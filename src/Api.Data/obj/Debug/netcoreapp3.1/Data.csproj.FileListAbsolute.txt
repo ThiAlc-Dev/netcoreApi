@@ -10,7 +10,6 @@ C:\Users\Jessica\Documents\Projetos\netcore_api\src\Api.Data\obj\Debug\netcoreap
 D:\Projetos\Particular\netcoreApi\src\Api.Data\bin\Debug\netcoreapp3.1\Data.deps.json
 D:\Projetos\Particular\netcoreApi\src\Api.Data\bin\Debug\netcoreapp3.1\Data.dll
 D:\Projetos\Particular\netcoreApi\src\Api.Data\bin\Debug\netcoreapp3.1\Data.pdb
-D:\Projetos\Particular\netcoreApi\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csprojAssemblyReference.cache
 D:\Projetos\Particular\netcoreApi\src\Api.Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfoInputs.cache
 D:\Projetos\Particular\netcoreApi\src\Api.Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfo.cs
 D:\Projetos\Particular\netcoreApi\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csproj.CoreCompileInputs.cache
@@ -22,3 +21,4 @@ D:\Projetos\Particular\netcoreApi\src\Api.Data\obj\Debug\netcoreapp3.1\Data.genr
 D:\Projetos\Particular\netcoreApi\src\Api.Data\bin\Debug\netcoreapp3.1\Domain.dll
 D:\Projetos\Particular\netcoreApi\src\Api.Data\bin\Debug\netcoreapp3.1\Domain.pdb
 D:\Projetos\Particular\netcoreApi\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csproj.CopyComplete
+D:\Projetos\Particular\netcoreApi\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csproj.AssemblyReference.cache

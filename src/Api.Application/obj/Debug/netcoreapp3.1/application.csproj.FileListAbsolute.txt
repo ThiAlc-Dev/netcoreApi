@@ -20,14 +20,12 @@ C:\Users\Jessica\Documents\Projetos\netcore_api\src\Api.Application\obj\Debug\ne
 C:\Users\Jessica\Documents\Projetos\netcore_api\src\Api.Application\obj\Debug\netcoreapp3.1\application.genruntimeconfig.cache
 D:\Projetos\Particular\netcoreApi\src\Api.Application\bin\Debug\netcoreapp3.1\appsettings.Development.json
 D:\Projetos\Particular\netcoreApi\src\Api.Application\bin\Debug\netcoreapp3.1\appsettings.json
-D:\Projetos\Particular\netcoreApi\src\Api.Application\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 D:\Projetos\Particular\netcoreApi\src\Api.Application\bin\Debug\netcoreapp3.1\application.exe
 D:\Projetos\Particular\netcoreApi\src\Api.Application\bin\Debug\netcoreapp3.1\application.deps.json
 D:\Projetos\Particular\netcoreApi\src\Api.Application\bin\Debug\netcoreapp3.1\application.runtimeconfig.json
 D:\Projetos\Particular\netcoreApi\src\Api.Application\bin\Debug\netcoreapp3.1\application.runtimeconfig.dev.json
 D:\Projetos\Particular\netcoreApi\src\Api.Application\bin\Debug\netcoreapp3.1\application.dll
 D:\Projetos\Particular\netcoreApi\src\Api.Application\bin\Debug\netcoreapp3.1\application.pdb
-D:\Projetos\Particular\netcoreApi\src\Api.Application\obj\Debug\netcoreapp3.1\application.csprojAssemblyReference.cache
 D:\Projetos\Particular\netcoreApi\src\Api.Application\obj\Debug\netcoreapp3.1\application.AssemblyInfoInputs.cache
 D:\Projetos\Particular\netcoreApi\src\Api.Application\obj\Debug\netcoreapp3.1\application.AssemblyInfo.cs
 D:\Projetos\Particular\netcoreApi\src\Api.Application\obj\Debug\netcoreapp3.1\application.csproj.CoreCompileInputs.cache
@@ -69,3 +67,7 @@ D:\Projetos\Particular\netcoreApi\src\Api.Application\bin\Debug\netcoreapp3.1\Cr
 D:\Projetos\Particular\netcoreApi\src\Api.Application\bin\Debug\netcoreapp3.1\Data.pdb
 D:\Projetos\Particular\netcoreApi\src\Api.Application\bin\Debug\netcoreapp3.1\Domain.pdb
 D:\Projetos\Particular\netcoreApi\src\Api.Application\obj\Debug\netcoreapp3.1\application.csproj.CopyComplete
+D:\Projetos\Particular\netcoreApi\src\Api.Application\bin\Debug\netcoreapp3.1\AutoMapper.dll
+D:\Projetos\Particular\netcoreApi\src\Api.Application\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Projetos\Particular\netcoreApi\src\Api.Application\obj\Debug\netcoreapp3.1\application.csproj.AssemblyReference.cache
+D:\Projetos\Particular\netcoreApi\src\Api.Application\obj\Debug\netcoreapp3.1\scopedcss\bundle\application.styles.css
