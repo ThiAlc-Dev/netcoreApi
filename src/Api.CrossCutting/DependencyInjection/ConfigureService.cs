@@ -12,6 +12,7 @@ namespace Api.CrossCutting.DependencyInjection
         public static void ConfigureDependencyServices(IServiceCollection serviceCollection, IConfiguration configuration)
         {
             serviceCollection.AddTransient<IUserService, UserService>();
+            serviceCollection.AddTransient<ILoginService, LoginService>();
             serviceCollection.AddDbContext<MyContext>(o => o.UseMySql(configuration.GetConnectionString("dbApi")));
         }
     }
