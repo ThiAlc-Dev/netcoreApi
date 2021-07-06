@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ielFgESUjPvQZK04GBrCAHBzSu2PWEXROLB73DCOYsY1O1n1/hC+XISTa6Z/bXlx9GYkO1QKYGks8f3GH0HPmQ==",
+  "dgSpecHash": "RMzSw8HkwLGgmZNwn8tFCHHDXSQr06ccyX4JlXoSjHVt3OePYouRR0fFzWD4GPplCFcwIFNilREGZb6Tsew8vw==",
   "success": true,
   "projectFilePath": "D:\\Projetos\\Particular\\netcoreApi\\src\\Api.CrossCutting\\CrossCutting.csproj",
   "expectedPackageFiles": [
@@ -24,6 +24,9 @@
     "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.16\\microsoft.extensions.logging.abstractions.3.1.16.nupkg.sha512",
     "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\microsoft.extensions.options\\3.1.16\\microsoft.extensions.options.3.1.16.nupkg.sha512",
     "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.16\\microsoft.extensions.primitives.3.1.16.nupkg.sha512",
+    "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.11.1\\microsoft.identitymodel.jsonwebtokens.6.11.1.nupkg.sha512",
+    "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\microsoft.identitymodel.logging\\6.11.1\\microsoft.identitymodel.logging.6.11.1.nupkg.sha512",
+    "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.11.1\\microsoft.identitymodel.tokens.6.11.1.nupkg.sha512",
     "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\mysqlconnector\\0.61.0\\mysqlconnector.0.61.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
     "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\3.1.2\\pomelo.entityframeworkcore.mysql.3.1.2.nupkg.sha512",
@@ -31,7 +34,9 @@
     "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\system.collections.immutable\\1.7.1\\system.collections.immutable.1.7.1.nupkg.sha512",
     "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
     "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
-    "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+    "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.11.1\\system.identitymodel.tokens.jwt.6.11.1.nupkg.sha512",
+    "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }
