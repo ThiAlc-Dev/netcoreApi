@@ -15,7 +15,7 @@ namespace Api.Application.SwaggerDoc
                 {
                     Version = "v1",
                     Title = "Api AspNetCore 3.1",
-                    Description = "Conceito de arquitetura em DDD",
+                    Description = " Api Rest com conceito de arquitetura em DDD",
                     TermsOfService = new Uri("https://github.com/ThiAlc-Dev/netcoreApi"),
                     Contact = new OpenApiContact
                     {

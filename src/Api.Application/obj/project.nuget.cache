@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "MQtziSpV08l4834EP4w0HJ4cLZnAT21YfsyuogMt3e+bSj5WKi1vjcjVAwBmHUV+MGeDCI4HtlWE/xj0b+5QoA==",
+  "dgSpecHash": "RAHPA10hicmlERzI9mtPPozhY0REL8ymzj0nSfJoDPRofj7jDPdnfW+Xbhj5blkHDiuVhf6QvXbK5LAlg4z7Ww==",
   "success": true,
   "projectFilePath": "D:\\Projetos\\Particular\\netcoreApi\\src\\Api.Application\\application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
+    "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.16\\microsoft.aspnetcore.authentication.jwtbearer.3.1.16.nupkg.sha512",
     "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
     "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
@@ -27,6 +28,8 @@
     "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.16\\microsoft.extensions.primitives.3.1.16.nupkg.sha512",
     "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.11.1\\microsoft.identitymodel.jsonwebtokens.6.11.1.nupkg.sha512",
     "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\microsoft.identitymodel.logging\\6.11.1\\microsoft.identitymodel.logging.6.11.1.nupkg.sha512",
+    "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\microsoft.identitymodel.protocols\\5.5.0\\microsoft.identitymodel.protocols.5.5.0.nupkg.sha512",
+    "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\5.5.0\\microsoft.identitymodel.protocols.openidconnect.5.5.0.nupkg.sha512",
     "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.11.1\\microsoft.identitymodel.tokens.6.11.1.nupkg.sha512",
     "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\mysqlconnector\\0.61.0\\mysqlconnector.0.61.0.nupkg.sha512",

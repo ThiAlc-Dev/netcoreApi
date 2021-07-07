@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "w5TqSv4SuKvhANpt9tX5i5ji9aJe+oUidYQLNvOj0osyMqMZsufYaOw1PfnHxXRtCTRkU15k2zs0lhYlxxNNYA==",
+  "dgSpecHash": "ktYBsNxSIhoCTc32hfX9M3KKF7Cd9P/yGicl4KjYeh5aafkw5X297SX/x/morH+Ru3NKuOA3oSFjI7Z/anR+5g==",
   "success": true,
   "projectFilePath": "D:\\Projetos\\Particular\\netcoreApi\\src\\Api.Domain\\Domain.csproj",
   "expectedPackageFiles": [
