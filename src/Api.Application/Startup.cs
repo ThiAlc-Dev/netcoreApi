@@ -1,16 +1,13 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+
 using Api.Application.SwaggerDoc;
 using Api.CrossCutting.DependencyInjection;
+using Api.Domain.Security;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
 
 namespace application
 {
@@ -30,6 +27,13 @@ namespace application
             ConfigureRepository.ConfigureDependencyRepository(services);
             ConfigureDocumenatation.SwaggerGenDoc(services);
             services.AddControllers();
+
+            var tokenConfig = new TokenConfiguration();
+            new ConfigureFromConfigurationOptions<TokenConfiguration>(
+                Configuration.GetSection("TokenConfigurations")).Configure(tokenConfig);
+            
+            services.AddSingleton(new SigningConfiguration());
+            services.AddSingleton(tokenConfig);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

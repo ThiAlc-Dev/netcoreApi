@@ -21,4 +21,4 @@ D:\Projetos\Particular\netcoreApi\src\Api.Data\obj\Debug\netcoreapp3.1\Data.genr
 D:\Projetos\Particular\netcoreApi\src\Api.Data\bin\Debug\netcoreapp3.1\Domain.dll
 D:\Projetos\Particular\netcoreApi\src\Api.Data\bin\Debug\netcoreapp3.1\Domain.pdb
 D:\Projetos\Particular\netcoreApi\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csproj.CopyComplete
-D:\Projetos\Particular\netcoreApi\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csprojAssemblyReference.cache
+D:\Projetos\Particular\netcoreApi\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csproj.AssemblyReference.cache
