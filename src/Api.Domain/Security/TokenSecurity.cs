@@ -1,6 +1,7 @@
 using System;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
+using System.Security.Cryptography;
 using System.Security.Principal;
 using Api.Domain.Entities;
 using Microsoft.IdentityModel.Tokens;
@@ -49,6 +50,9 @@ namespace Api.Domain.Security
 
                 var token = handler.WriteToken(securityToken);
 
+                //create refresh token
+                var _refresToken = CreateRefreshToken(user.Email, expirationDate);
+
                 //succsses object
                 return new
                 {
@@ -56,10 +60,36 @@ namespace Api.Domain.Security
                     created = createDate.ToString("yyyy-MM-dd HH:mm:ss"),
                     expiration = expirationDate.ToString("yyyy-MM-dd HH:mm:ss"),
                     acessToken = token,
+                    refreshToken = _refresToken.Token,
                     userName = user.Email,
                     message = "Usuário autenticado."
                 };
             }
+        }
+
+        private static RefreshToken CreateRefreshToken(string username, DateTime expirationDate)
+        {
+            var refreshToken = new RefreshToken
+            {
+                Username = username,
+                ExpirationDate = expirationDate
+            };
+
+            string token;
+            var randomNumber = new byte[32];
+
+            using (var rng = RandomNumberGenerator.Create())
+            {
+                rng.GetBytes(randomNumber);
+                token = Convert.ToBase64String(randomNumber);
+            }
+
+            refreshToken.Token = token
+                .Replace("+", string.Empty)
+                .Replace("=", string.Empty)
+                .Replace("/", string.Empty);
+
+            return refreshToken;
         }
     }
 }
