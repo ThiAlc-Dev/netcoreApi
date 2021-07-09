@@ -13,6 +13,7 @@ namespace Api.Data.Mapping
             builder.HasIndex(u => u.Email).IsUnique();
             builder.Property(u => u.Nome).IsRequired().HasMaxLength(150);
             builder.Property(u => u.Email).IsRequired().HasMaxLength(150);
+            builder.Property(u => u.Password).IsRequired().HasMaxLength(250);
         }
     }
 }
