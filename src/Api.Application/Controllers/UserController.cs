@@ -3,6 +3,7 @@ using System.Net;
 using System.Threading.Tasks;
 using Api.Domain.Entities;
 using Api.Domain.Interfaces.Services;
+using Api.Domain.Security;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -62,6 +63,8 @@ namespace Api.Application.Controllers
 
             try
             {
+                user.Password = ComputeHashing.ComputeSha256Hash(user.Password);
+
                 var result = await _service.Post(user);
                 if (result != null)
                     return Created(new Uri(Url.Link("GetForId", new { id = result.Id })), result);

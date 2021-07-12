@@ -1,3 +1,5 @@
+using System;
+using System.Text;
 using System.Threading.Tasks;
 using Api.Domain.DTOs;
 using Api.Domain.Entities;
@@ -30,9 +32,21 @@ namespace Api.Service.Services
             if (user != null && !string.IsNullOrWhiteSpace(user.Email))
             {
                 var baseUser = new UserEntity();
-
                 baseUser = await _repository.FindByLogin(user.Email.ToLower());
-                return TokenSecurity.Create(baseUser, _tokenConfiguration, _signingConfiguration);
+
+                //verificar a senha digitada com a que está no banco
+                if (ComputeHashing.VerifyHash(user.Password, baseUser.Password))
+                {
+                    return TokenSecurity.Create(baseUser, _tokenConfiguration, _signingConfiguration);
+                }
+                else
+                {
+                    return new
+                    {
+                        authenticated = false,
+                        message = "Senha incorreta."
+                    };
+                }
             }
             else
             {

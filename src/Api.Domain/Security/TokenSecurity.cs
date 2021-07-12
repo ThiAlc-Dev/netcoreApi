@@ -60,19 +60,18 @@ namespace Api.Domain.Security
                     created = createDate.ToString("yyyy-MM-dd HH:mm:ss"),
                     expiration = expirationDate.ToString("yyyy-MM-dd HH:mm:ss"),
                     acessToken = token,
-                    refreshToken = _refresToken.Token,
+                    refreshToken = _refresToken.RefreshToken,
                     userName = user.Email,
                     message = "Usuário autenticado."
                 };
             }
         }
 
-        private static RefreshToken CreateRefreshToken(string username, DateTime expirationDate)
+        private static AccessCredentials CreateRefreshToken(string username, DateTime expirationDate)
         {
-            var refreshToken = new RefreshToken
+            var refreshToken = new AccessCredentials
             {
-                Username = username,
-                ExpirationDate = expirationDate
+                Username = username
             };
 
             string token;
@@ -84,7 +83,7 @@ namespace Api.Domain.Security
                 token = Convert.ToBase64String(randomNumber);
             }
 
-            refreshToken.Token = token
+            refreshToken.RefreshToken = token
                 .Replace("+", string.Empty)
                 .Replace("=", string.Empty)
                 .Replace("/", string.Empty);

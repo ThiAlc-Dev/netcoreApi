@@ -1,8 +1,10 @@
 using System;
 using System.Net;
+using System.Text;
 using System.Threading.Tasks;
 using Api.Domain.DTOs;
 using Api.Domain.Interfaces.Services;
+using Api.Domain.Security;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
