@@ -1,6 +1,7 @@
 using System;
 using System.Net;
 using System.Threading.Tasks;
+using Api.Domain.DTOs.User;
 using Api.Domain.Entities;
 using Api.Domain.Interfaces.Services;
 using Api.Domain.Security;
@@ -56,15 +57,13 @@ namespace Api.Application.Controllers
 
         [Authorize("Bearer")]
         [HttpPost]
-        public async Task<ActionResult> Post([FromBody] UserEntity user)
+        public async Task<ActionResult> Post([FromBody] UserDTO user)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
 
             try
             {
-                user.Password = ComputeHashing.ComputeSha256Hash(user.Password);
-
                 var result = await _service.Post(user);
                 if (result != null)
                     return Created(new Uri(Url.Link("GetForId", new { id = result.Id })), result);
@@ -78,7 +77,7 @@ namespace Api.Application.Controllers
         }
 
         [HttpPut]
-        public async Task<ActionResult> Put([FromBody] UserEntity user)
+        public async Task<ActionResult> Put([FromBody] UserDTOCommon user)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);

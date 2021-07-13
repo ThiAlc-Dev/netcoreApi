@@ -1,7 +1,7 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace Api.Domain.DTOs
+namespace Api.Domain.DTOs.User
 {
     public class UserDTO
     {

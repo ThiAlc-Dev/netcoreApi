@@ -28,9 +28,10 @@ namespace application
         {
             ConfigureService.ConfigureDependencyServices(services, Configuration);
             ConfigureRepository.ConfigureDependencyRepository(services);
+            ConfigureAutoMapper.ConfigureAutoMapperDependency(services);
             ConfigureDocumenatation.SwaggerGenDoc(services);
             services.AddControllers();
-
+        
             var tokenConfig = new TokenConfiguration();
             new ConfigureFromConfigurationOptions<TokenConfiguration>(
                 Configuration.GetSection("TokenConfigurations")).Configure(tokenConfig);
