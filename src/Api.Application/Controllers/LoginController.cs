@@ -16,7 +16,7 @@ namespace Api.Application.Controllers
     {
         [AllowAnonymous]
         [HttpPost]
-        public async Task<object> Login([FromBody] LoginDTO userentity, [FromServices] ILoginService service)
+        public async Task<object> LoginAsync([FromBody] LoginDTO userentity, [FromServices] ILoginService service)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);

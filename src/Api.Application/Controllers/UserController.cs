@@ -40,7 +40,7 @@ namespace Api.Application.Controllers
         [Authorize("Bearer")]
         [HttpGet]
         [Route("{id}", Name = "GetForId")]
-        public async Task<ActionResult> Get(Guid id)
+        public async Task<ActionResult> GetAsync(Guid id)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
@@ -57,7 +57,7 @@ namespace Api.Application.Controllers
 
         [Authorize("Bearer")]
         [HttpPost]
-        public async Task<ActionResult> Post([FromBody] UserDTO user)
+        public async Task<ActionResult> PostAsync([FromBody] UserDTO user)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
@@ -77,7 +77,7 @@ namespace Api.Application.Controllers
         }
 
         [HttpPut]
-        public async Task<ActionResult> Put([FromBody] UserDTOCommon user)
+        public async Task<ActionResult> PutAsync([FromBody] UserDTOCommon user)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
@@ -99,7 +99,7 @@ namespace Api.Application.Controllers
         [Authorize("Bearer")]
         [HttpDelete]
         [Route("{id}")]
-        public async Task<ActionResult> Delete(Guid id)
+        public async Task<ActionResult> DeleteAsync(Guid id)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
