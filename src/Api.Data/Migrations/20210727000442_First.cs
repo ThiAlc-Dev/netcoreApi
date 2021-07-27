@@ -3,28 +3,34 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Data.Migrations
 {
-    public partial class UserMigration : Migration
+    public partial class First : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "User",
+                name: "Usuario",
                 columns: table => new
                 {
                     Id = table.Column<Guid>(nullable: false),
                     CreateAt = table.Column<DateTime>(nullable: true),
                     UpdateAt = table.Column<DateTime>(nullable: true),
                     Nome = table.Column<string>(maxLength: 150, nullable: false),
-                    Email = table.Column<string>(maxLength: 150, nullable: false)
+                    Email = table.Column<string>(maxLength: 150, nullable: false),
+                    Password = table.Column<string>(maxLength: 250, nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_User", x => x.Id);
+                    table.PrimaryKey("PK_Usuario", x => x.Id);
                 });
 
+            migrationBuilder.InsertData(
+                table: "Usuario",
+                columns: new[] { "Id", "CreateAt", "Email", "Nome", "Password", "UpdateAt" },
+                values: new object[] { new Guid("c4707fe5-14e2-4460-9653-30f4930f9f6a"), new DateTime(2021, 7, 27, 0, 4, 42, 281, DateTimeKind.Utc).AddTicks(5449), "helpdeskprog@outlook.com", "Administrador", "6103945b4c627fa62b6649cbdbbab5493797cab452ed533ca66922cac7d63913", null });
+
             migrationBuilder.CreateIndex(
-                name: "IX_User_Email",
-                table: "User",
+                name: "IX_Usuario_Email",
+                table: "Usuario",
                 column: "Email",
                 unique: true);
         }
@@ -32,7 +38,7 @@ namespace Data.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "User");
+                name: "Usuario");
         }
     }
 }

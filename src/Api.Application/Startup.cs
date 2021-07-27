@@ -26,7 +26,7 @@ namespace application
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            ConfigureService.ConfigureDependencyServices(services, Configuration);
+            ConfigureService.ConfigureDependencyServices(services);
             ConfigureRepository.ConfigureDependencyRepository(services);
             ConfigureAutoMapper.ConfigureAutoMapperDependency(services);
             ConfigureDocumenatation.SwaggerGenDoc(services);
@@ -82,6 +82,14 @@ namespace application
             {
                 endpoints.MapControllers();
             });
+
+            if(Environment.GetEnvironmentVariable("MIGRATION").ToLower().Equals("apply"))
+            {
+                using(var service = app.ApplicationServices.GetRequiredService<IServiceScopeFactory>().CreateScope())
+                {
+                    ConfigureRepository.ConfigureMgrationDatabase(service);
+                }
+            }
         }
     }
 }
