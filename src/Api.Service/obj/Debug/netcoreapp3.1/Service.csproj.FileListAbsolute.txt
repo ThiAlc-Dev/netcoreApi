@@ -20,3 +20,17 @@ D:\Projetos\Particular\netcoreApi\src\Api.Service\bin\Debug\netcoreapp3.1\Domain
 D:\Projetos\Particular\netcoreApi\src\Api.Service\bin\Debug\netcoreapp3.1\Data.pdb
 D:\Projetos\Particular\netcoreApi\src\Api.Service\obj\Debug\netcoreapp3.1\Service.csproj.CopyComplete
 D:\Projetos\Particular\netcoreApi\src\Api.Service\obj\Debug\netcoreapp3.1\Service.csproj.AssemblyReference.cache
+C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Service\bin\Debug\netcoreapp3.1\Service.deps.json
+C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Service\bin\Debug\netcoreapp3.1\Service.dll
+C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Service\bin\Debug\netcoreapp3.1\Service.pdb
+C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Service\bin\Debug\netcoreapp3.1\Data.dll
+C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Service\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Service\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Service\bin\Debug\netcoreapp3.1\Data.pdb
+C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfoInputs.cache
+C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfo.cs
+C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Service\obj\Debug\netcoreapp3.1\Service.csproj.CoreCompileInputs.cache
+C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Service\obj\Debug\netcoreapp3.1\Service.csproj.CopyComplete
+C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Service\obj\Debug\netcoreapp3.1\Service.dll
+C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Service\obj\Debug\netcoreapp3.1\Service.pdb
+C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Service\obj\Debug\netcoreapp3.1\Service.csprojAssemblyReference.cache

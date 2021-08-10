@@ -1,44 +1,38 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projetos\\Particular\\netcoreApi\\src\\Api.CrossCutting\\CrossCutting.csproj": {}
+    "C:\\Users\\thiagoalcantara\\Documents\\Projetos\\Pessoal\\netcoreApi\\src\\Api.CrossCutting\\CrossCutting.csproj": {}
   },
   "projects": {
-    "D:\\Projetos\\Particular\\netcoreApi\\src\\Api.CrossCutting\\CrossCutting.csproj": {
+    "C:\\Users\\thiagoalcantara\\Documents\\Projetos\\Pessoal\\netcoreApi\\src\\Api.CrossCutting\\CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\Particular\\netcoreApi\\src\\Api.CrossCutting\\CrossCutting.csproj",
+        "projectUniqueName": "C:\\Users\\thiagoalcantara\\Documents\\Projetos\\Pessoal\\netcoreApi\\src\\Api.CrossCutting\\CrossCutting.csproj",
         "projectName": "CrossCutting",
-        "projectPath": "D:\\Projetos\\Particular\\netcoreApi\\src\\Api.CrossCutting\\CrossCutting.csproj",
-        "packagesPath": "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\Particular\\netcoreApi\\src\\Api.CrossCutting\\obj\\",
+        "projectPath": "C:\\Users\\thiagoalcantara\\Documents\\Projetos\\Pessoal\\netcoreApi\\src\\Api.CrossCutting\\CrossCutting.csproj",
+        "packagesPath": "C:\\Users\\thiagoalcantara\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\thiagoalcantara\\Documents\\Projetos\\Pessoal\\netcoreApi\\src\\Api.CrossCutting\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\brq.thiago.alcantara\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\thiagoalcantara\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Projetos\\Particular\\netcoreApi\\src\\Api.Data\\Data.csproj": {
-                "projectPath": "D:\\Projetos\\Particular\\netcoreApi\\src\\Api.Data\\Data.csproj"
+              "C:\\Users\\thiagoalcantara\\Documents\\Projetos\\Pessoal\\netcoreApi\\src\\Api.Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\thiagoalcantara\\Documents\\Projetos\\Pessoal\\netcoreApi\\src\\Api.Data\\Data.csproj"
               },
-              "D:\\Projetos\\Particular\\netcoreApi\\src\\Api.Domain\\Domain.csproj": {
-                "projectPath": "D:\\Projetos\\Particular\\netcoreApi\\src\\Api.Domain\\Domain.csproj"
+              "C:\\Users\\thiagoalcantara\\Documents\\Projetos\\Pessoal\\netcoreApi\\src\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\thiagoalcantara\\Documents\\Projetos\\Pessoal\\netcoreApi\\src\\Api.Domain\\Domain.csproj"
               },
-              "D:\\Projetos\\Particular\\netcoreApi\\src\\Api.Service\\Service.csproj": {
-                "projectPath": "D:\\Projetos\\Particular\\netcoreApi\\src\\Api.Service\\Service.csproj"
+              "C:\\Users\\thiagoalcantara\\Documents\\Projetos\\Pessoal\\netcoreApi\\src\\Api.Service\\Service.csproj": {
+                "projectPath": "C:\\Users\\thiagoalcantara\\Documents\\Projetos\\Pessoal\\netcoreApi\\src\\Api.Service\\Service.csproj"
               }
             }
           }
@@ -51,7 +45,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
@@ -77,39 +70,33 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.411\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Projetos\\Particular\\netcoreApi\\src\\Api.Data\\Data.csproj": {
+    "C:\\Users\\thiagoalcantara\\Documents\\Projetos\\Pessoal\\netcoreApi\\src\\Api.Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\Particular\\netcoreApi\\src\\Api.Data\\Data.csproj",
+        "projectUniqueName": "C:\\Users\\thiagoalcantara\\Documents\\Projetos\\Pessoal\\netcoreApi\\src\\Api.Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "D:\\Projetos\\Particular\\netcoreApi\\src\\Api.Data\\Data.csproj",
-        "packagesPath": "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\Particular\\netcoreApi\\src\\Api.Data\\obj\\",
+        "projectPath": "C:\\Users\\thiagoalcantara\\Documents\\Projetos\\Pessoal\\netcoreApi\\src\\Api.Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\thiagoalcantara\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\thiagoalcantara\\Documents\\Projetos\\Pessoal\\netcoreApi\\src\\Api.Data\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\brq.thiago.alcantara\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\thiagoalcantara\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Projetos\\Particular\\netcoreApi\\src\\Api.Domain\\Domain.csproj": {
-                "projectPath": "D:\\Projetos\\Particular\\netcoreApi\\src\\Api.Domain\\Domain.csproj"
+              "C:\\Users\\thiagoalcantara\\Documents\\Projetos\\Pessoal\\netcoreApi\\src\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\thiagoalcantara\\Documents\\Projetos\\Pessoal\\netcoreApi\\src\\Api.Domain\\Domain.csproj"
               }
             }
           }
@@ -122,7 +109,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -164,36 +150,30 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.411\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Projetos\\Particular\\netcoreApi\\src\\Api.Domain\\Domain.csproj": {
+    "C:\\Users\\thiagoalcantara\\Documents\\Projetos\\Pessoal\\netcoreApi\\src\\Api.Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\Particular\\netcoreApi\\src\\Api.Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\thiagoalcantara\\Documents\\Projetos\\Pessoal\\netcoreApi\\src\\Api.Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\Projetos\\Particular\\netcoreApi\\src\\Api.Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\Particular\\netcoreApi\\src\\Api.Domain\\obj\\",
+        "projectPath": "C:\\Users\\thiagoalcantara\\Documents\\Projetos\\Pessoal\\netcoreApi\\src\\Api.Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\thiagoalcantara\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\thiagoalcantara\\Documents\\Projetos\\Pessoal\\netcoreApi\\src\\Api.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\brq.thiago.alcantara\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\thiagoalcantara\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -205,7 +185,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
@@ -227,42 +206,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.411\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Projetos\\Particular\\netcoreApi\\src\\Api.Service\\Service.csproj": {
+    "C:\\Users\\thiagoalcantara\\Documents\\Projetos\\Pessoal\\netcoreApi\\src\\Api.Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\Particular\\netcoreApi\\src\\Api.Service\\Service.csproj",
+        "projectUniqueName": "C:\\Users\\thiagoalcantara\\Documents\\Projetos\\Pessoal\\netcoreApi\\src\\Api.Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "D:\\Projetos\\Particular\\netcoreApi\\src\\Api.Service\\Service.csproj",
-        "packagesPath": "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\Particular\\netcoreApi\\src\\Api.Service\\obj\\",
+        "projectPath": "C:\\Users\\thiagoalcantara\\Documents\\Projetos\\Pessoal\\netcoreApi\\src\\Api.Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\thiagoalcantara\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\thiagoalcantara\\Documents\\Projetos\\Pessoal\\netcoreApi\\src\\Api.Service\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\brq.thiago.alcantara\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\thiagoalcantara\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Projetos\\Particular\\netcoreApi\\src\\Api.Data\\Data.csproj": {
-                "projectPath": "D:\\Projetos\\Particular\\netcoreApi\\src\\Api.Data\\Data.csproj"
+              "C:\\Users\\thiagoalcantara\\Documents\\Projetos\\Pessoal\\netcoreApi\\src\\Api.Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\thiagoalcantara\\Documents\\Projetos\\Pessoal\\netcoreApi\\src\\Api.Data\\Data.csproj"
               },
-              "D:\\Projetos\\Particular\\netcoreApi\\src\\Api.Domain\\Domain.csproj": {
-                "projectPath": "D:\\Projetos\\Particular\\netcoreApi\\src\\Api.Domain\\Domain.csproj"
+              "C:\\Users\\thiagoalcantara\\Documents\\Projetos\\Pessoal\\netcoreApi\\src\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\thiagoalcantara\\Documents\\Projetos\\Pessoal\\netcoreApi\\src\\Api.Domain\\Domain.csproj"
               }
             }
           }
@@ -275,7 +248,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
@@ -297,7 +269,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.411\\RuntimeIdentifierGraph.json"
         }
       }
     }

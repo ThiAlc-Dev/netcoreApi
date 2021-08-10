@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "w5TqSv4SuKvhANpt9tX5i5ji9aJe+oUidYQLNvOj0osyMqMZsufYaOw1PfnHxXRtCTRkU15k2zs0lhYlxxNNYA==",
+  "dgSpecHash": "c1Q8wgwr5C6zbHMhhcaNDaJazFo+wFeHNryEsj/UzIF6JmFa/0QPFQ9FYwgedfb6ILEqrn/PPtzl4FhYVGcW9Q==",
   "success": true,
-  "projectFilePath": "D:\\Projetos\\Particular\\netcoreApi\\src\\Api.Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\thiagoalcantara\\Documents\\Projetos\\Pessoal\\netcoreApi\\src\\Api.Domain\\Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
-    "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.11.1\\microsoft.identitymodel.jsonwebtokens.6.11.1.nupkg.sha512",
-    "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\microsoft.identitymodel.logging\\6.11.1\\microsoft.identitymodel.logging.6.11.1.nupkg.sha512",
-    "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.11.1\\microsoft.identitymodel.tokens.6.11.1.nupkg.sha512",
-    "C:\\Users\\brq.thiago.alcantara\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.11.1\\system.identitymodel.tokens.jwt.6.11.1.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
+    "C:\\Users\\thiagoalcantara\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\thiagoalcantara\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.11.1\\microsoft.identitymodel.jsonwebtokens.6.11.1.nupkg.sha512",
+    "C:\\Users\\thiagoalcantara\\.nuget\\packages\\microsoft.identitymodel.logging\\6.11.1\\microsoft.identitymodel.logging.6.11.1.nupkg.sha512",
+    "C:\\Users\\thiagoalcantara\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.11.1\\microsoft.identitymodel.tokens.6.11.1.nupkg.sha512",
+    "C:\\Users\\thiagoalcantara\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.11.1\\system.identitymodel.tokens.jwt.6.11.1.nupkg.sha512",
+    "C:\\Users\\thiagoalcantara\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }
