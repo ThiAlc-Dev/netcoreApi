@@ -15,15 +15,11 @@ namespace Api.CrossCutting.DependencyInjection
             serviceCollection.AddScoped(typeof(IRepository<>), typeof(BaseRepository<>));
             serviceCollection.AddScoped<IUserRepository, UserRepository>();
 
-            if (Environment.GetEnvironmentVariable("DATABASE").ToLower().Equals("sqlserver"))
-            {
-                //TODO implementar conexão Sql Server
-            }
-            else
-            {
-                serviceCollection.AddDbContext<MyContext>(o =>
-                o.UseMySql(Environment.GetEnvironmentVariable("DB_CONNNECTION")));
-            }
+            var MYSQL_CONNECTION = Environment.GetEnvironmentVariable("MYSQL_CONNECTION");
+            var MYSQL_DATABASE = Environment.GetEnvironmentVariable("MYSQL_DATABASE");
+
+            var connection = MYSQL_CONNECTION + $";Database={MYSQL_DATABASE};";
+            serviceCollection.AddDbContext<MyContext>(o => o.UseMySql(connection));
         }
 
         public static void ConfigureMgrationDatabase(IServiceScope service)

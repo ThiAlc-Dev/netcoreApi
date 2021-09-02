@@ -1,0 +1,36 @@
+version: "3.1"
+services:
+  start_dependencies:
+    image: dadarek/wait-for-dependencies
+    container_name: db_dependency
+    depends_on:
+      - db
+    command: db:3306
+  db:
+    image: mysql:5.7
+    command: --lower_case_table_names=1
+    container_name: MySql_dbApi
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: Admin
+    ports:
+      - 3306:3306
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: api.application
+    environment:
+      PORT: 5000
+      LANDSCAPE: "br"
+      APPLICATION_NAME: "api.application"
+      VERSION: "1.0.0"
+      CONFIG_VERSION: "1.0.0"
+      CONFIG_ENVIRONMENT: "development"
+      LOG_LEVEL: "INFORMATION"
+      LOG_FORMAT: "JSON"
+      MYSQL_CONNECTION: "Server=db;Port=3306;Uid=root;Pwd=Admin"
+      MYSQL_DATABASE: "dbApi"
+      MIGRATION: "NOAPPLY"
+    ports:
+      - 5000:5000

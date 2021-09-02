@@ -1,3 +1,4 @@
+using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 
@@ -7,10 +8,15 @@ namespace Api.Data.Context
     {
         public MyContext CreateDbContext(string[] args)
         {
-            //create migrations
-            var connectionString = "server=localhost;port=3306;database=DbApi;uid=root;password=Admin";
+            var MYSQL_CONNECTION = Environment.GetEnvironmentVariable("MYSQL_CONNECTION");
+            var MYSQL_DATABASE = Environment.GetEnvironmentVariable("MYSQL_DATABASE");
+
+            var connection = MYSQL_CONNECTION + $";Database={MYSQL_DATABASE};";
+
             var optionsBuilder = new DbContextOptionsBuilder<MyContext>();
-            optionsBuilder.UseMySql(connectionString);
+            optionsBuilder.UseMySql(connection)
+                    .EnableSensitiveDataLogging(true)
+                    .EnableDetailedErrors();
 
             return new MyContext(optionsBuilder.Options);
         }

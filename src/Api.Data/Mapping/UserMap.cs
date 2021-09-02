@@ -23,7 +23,7 @@ namespace Api.Data.Mapping
                     Id = Guid.NewGuid(),
                     Nome = "Administrador",
                     Email = "helpdeskprog@outlook.com",
-                    Password = "6103945b4c627fa62b6649cbdbbab5493797cab452ed533ca66922cac7d63913",
+                    Password = "9847a26019ec09d9c3b510168fc158fb3264875ad295863bd8a3caad8270b819",
                     CreateAt = DateTime.UtcNow,
                     UpdateAt = null
                 }

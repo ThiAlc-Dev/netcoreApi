@@ -26,9 +26,9 @@ namespace Api.Data.Test
                 UserRepository _repository = new UserRepository(context);
                 UserEntity _entity = new UserEntity
                 {
-                    Email = "teste@teste.com",
-                    Nome = "teste criação",
-                    Password = "abc@123"
+                    Email = Faker.Internet.Email(),
+                    Nome = Faker.Name.FullName(),
+                    Password = Faker.RandomNumber.Next(10, 30).ToString()
                 };
 
                 var _retorno = await _repository.InsertAsync(_entity);
