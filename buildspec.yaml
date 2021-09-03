@@ -1,22 +1,5 @@
 version: 0.2
-env:
-  secrets-manager:
-    DEVOPS_ACCESS_KEY: arn:aws:secretsmanager:${AWS_REGION}:${AWS_ACCOUNT_ID}:secret:${SECRET_DEVOPS_ACCESS_KEY}
-    DEVOPS_SECRET_KEY: arn:aws:secretsmanager:${AWS_REGION}:${AWS_ACCOUNT_ID}:secret:${SECRET_DEVOPS_SECRET_KEY}
 phases:
-  pre_build:
-    commands:
-      - pip install --upgrade --user awscli
-      - echo Start on `date`
-      - aws configure set region ${AWS_REGION} --profile devops
-      - aws configure set aws_access_key_id ${DEVOPS_ACCESS_KEY} --profile devops
-      - aws configure set aws_secret_access_key ${DEVOPS_SECRET_KEY} --profile devops
-      - echo Logging in to Amazon ECR Devops..
-      - aws ecr get-login-password --region ${AWS_REGION} | docker login --username AWS --password-stdin ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com
-      - COMMIT_HASH=$(echo $CODEBUILD_SOURCE_VERSION | cut -c 1-7)
-      - REPOSITORY_URI=${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${ECR_REPOSITORY_NAME}
-      - REPOSITORY_URI_COMMIT=${REPOSITORY_URI}:${COMMIT_HASH}
-      - REPOSITORY_URI_BRANCH=${REPOSITORY_URI}:${BRANCH_NAME}
   build:
     commands:
       - echo Restore started on `date`
