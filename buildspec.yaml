@@ -4,8 +4,6 @@ phases:
     commands:
       - echo Restore started on `date`
       - dotnet restore src/Api.sln
-      - echo Tests started on `date`
-      - dotnet test src/Api.sln -v q /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura /p:CoverletOutput=./TestResults/Coverage/ --logger "trx;LogFileName=TestsResults.trx"
       - echo Build started on `date`
       - dotnet build --configuration Release src/Api.sln -v q
       - echo Building the docker image on `date`
