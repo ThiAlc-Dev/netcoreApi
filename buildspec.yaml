@@ -1,37 +1,13 @@
+
 version: 0.2
 phases:
-  build:
+  pre_build:
     commands:
       - echo Restore started on `date`
-      - dotnet restore src/Api.sln
+      - dotnet restore Api.sln
+  build:
+    commands:
       - echo Build started on `date`
-      - dotnet build --configuration Release src/Api.sln -v q
-      - echo Building the docker image on `date`
-      - docker build -t ${REPOSITORY_URI_COMMIT} -t ${REPOSITORY_URI_BRANCH} .
-  # post_build:
-  #   commands:
-  #     - echo Logging in to Amazon ECR..
-  #     - aws ecr get-login-password --region ${AWS_REGION} | docker login --username AWS --password-stdin ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com
-  #     - echo Pushing the Docker images...
-  #     - docker push ${REPOSITORY_URI}
-  #     - cd deploy/codebuild
-  #     - echo Deploy parameters... 
-  #     - sh parameters.${CONFIG_ENVIRONMENT}.sh
-  #     - echo Deploy ECS...
-  #     - sh ecs.sh
-  #     - echo Deploy API Gateway...
-  #     - sh apigateway.sh
-artifacts:
-  files:
-    - "**/*.trx"
-    #- "**/*.cobertura*"
-  base-directory: ./src
-  discard-paths: true
-reports:
-  report-group:
-    files:
-      - "**/*.trx"
-      #- "**/*.cobertura*"
-    base-directory: ./src
-    discard-paths: true
-    file-format: VisualStudioTrx
+      - dotnet build Api.sln
+      - echo publish release
+      - dotnet publish -c release -o ./out Api.sln
