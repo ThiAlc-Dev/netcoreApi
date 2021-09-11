@@ -4,10 +4,14 @@ phases:
   pre_build:
     commands:
       - echo Restore started on `date`
-      - dotnet restore Api.sln
+      - dotnet restore src/Api.sln
   build:
     commands:
       - echo Build started on `date`
-      - dotnet build Api.sln
+      - dotnet build src/Api.sln
       - echo publish release
       - dotnet publish -c release -o ./out Api.sln
+artifacts:
+  files:
+    - ./**/*
+  base-directory: './out'      
