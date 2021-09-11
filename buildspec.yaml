@@ -10,7 +10,7 @@ phases:
       - echo Build started on `date`
       - dotnet build src/Api.sln
       - echo publish release
-      - dotnet publish -c release -o ./out Api.sln
+      - dotnet publish -c release -o ./out src/Api.sln
 artifacts:
   files:
     - ./**/*
