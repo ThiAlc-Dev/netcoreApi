@@ -29,7 +29,7 @@ phases:
       - echo Build completed on `date`
       - echo pushing the Docker images..
       - docker push ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/apinetcore:latest
-      - ecgo writing image definitions file..
+      - echo writing image definitions file..
       - printf '[{"name":"app","imageUri":"%s"}]' $REPOSITORY_URI:$IMAGE_TAG > imagedefinitions.js
 artifacts:
   files: imagedefinitions.js   
