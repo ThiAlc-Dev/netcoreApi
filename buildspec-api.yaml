@@ -1,0 +1,35 @@
+
+version: 0.2
+phases:
+  pre_build:
+    commands:
+      - pip install --upgrade --user awscli
+      - echo logging in to Amazon ECR
+      - aws --version
+      - aws ecr get-login-password --region {AWS_REGION} | docker login --username AWS --password-stdin {AWS_ACCOUNT_ID}.dkr.ecr.{AWS_REGION}.amazonaws.com
+      - REPOSITORY_URI=${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/apinetcore:latest
+      - COMMIT_HASH=$(echo $CODEBUILD_SOURCE_VERSION | cut -c 1-7)
+      - IMAGE_TAG=build-$(echo $CODEBUILD_BUILD_ID | awk -F":" '{print $2}')
+      - AWS_TAG_BUILD=${REPOSITORY_URI}:${COMMIT_HASH}
+      - echo varaiable tag ${AWS_TAG_BUILD}
+  build:
+    commands:
+      - echo Build started on `date`
+      - echo Restore started on `date`
+      - dotnet restore src/Api.sln
+      - echo Build started on `date`
+      - dotnet build src/Api.sln
+      - echo publish release
+      - dotnet publish -c release -o ./out src/Api.sln
+      - echo building started docker image..
+      - docker build -t apinetcore .
+      - docker tag apinetcore:latest {AWS_ACCOUNT_ID}.dkr.ecr.{AWS_REGION}.amazonaws.com/apinetcore:latest
+  post_build:
+    commands:
+      - echo Build completed on `date`
+      - echo pushing the Docker images..
+      - docker push {AWS_ACCOUNT_ID}.dkr.ecr.{AWS_REGION}.amazonaws.com/apinetcore:latest
+artifacts:
+  files:
+    - ./**/*
+  base-directory: './out'      
