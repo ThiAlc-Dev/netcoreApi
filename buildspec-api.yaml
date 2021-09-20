@@ -23,12 +23,12 @@ phases:
       - dotnet publish -c release -o ./out src/Api.sln
       - echo building started docker image..
       - docker build -t apinetcore .
-      - docker tag apinetcore:latest {AWS_ACCOUNT_ID}.dkr.ecr.{AWS_REGION}.amazonaws.com/apinetcore:latest
+      - docker tag apinetcore:latest ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/apinetcore:latest
   post_build:
     commands:
       - echo Build completed on `date`
       - echo pushing the Docker images..
-      - docker push {AWS_ACCOUNT_ID}.dkr.ecr.{AWS_REGION}.amazonaws.com/apinetcore:latest
+      - docker push ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/apinetcore:latest
 artifacts:
   files:
     - ./**/*
