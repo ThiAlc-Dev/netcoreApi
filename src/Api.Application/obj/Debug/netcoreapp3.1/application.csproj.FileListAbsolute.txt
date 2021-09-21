@@ -146,5 +146,5 @@ C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Applicati
 C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Application\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
 C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Application\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Application\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
-C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Application\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
-C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Application\obj\Debug\netcoreapp3.1\application.csprojAssemblyReference.cache
+C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Application\obj\Debug\netcoreapp3.1\application.csproj.AssemblyReference.cache
+C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Application\obj\Debug\netcoreapp3.1\scopedcss\bundle\application.styles.css
