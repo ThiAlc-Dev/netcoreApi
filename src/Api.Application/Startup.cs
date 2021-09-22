@@ -83,13 +83,13 @@ namespace application
                 endpoints.MapControllers();
             });
 
-            //if(Environment.GetEnvironmentVariable("MIGRATION").ToLower().Equals("apply"))
-            //{
+            if(Environment.GetEnvironmentVariable("MIGRATION").ToLower().Equals("apply"))
+            {
                 using(var service = app.ApplicationServices.GetRequiredService<IServiceScopeFactory>().CreateScope())
                 {
                     ConfigureRepository.ConfigureMgrationDatabase(service);
                 }
-            //}
+            }
         }
     }
 }
