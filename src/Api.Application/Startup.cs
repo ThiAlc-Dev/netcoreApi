@@ -10,12 +10,14 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
 namespace application
 {
     public class Startup
     {
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -65,7 +67,7 @@ namespace application
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILogger<Startup> _logger)
         {
             if (env.IsDevelopment())
             {
@@ -82,6 +84,8 @@ namespace application
             {
                 endpoints.MapControllers();
             });
+
+            _logger.LogInformation($"variavel: {Environment.GetEnvironmentVariable("MIGRATION")}");
 
             if(Environment.GetEnvironmentVariable("MIGRATION").ToLower().Equals("apply"))
             {

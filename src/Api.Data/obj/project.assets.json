@@ -1191,6 +1191,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
             "C:\\Users\\thiagoalcantara\\Documents\\Projetos\\Pessoal\\netcoreApi\\src\\Api.Domain\\Domain.csproj": {
               "projectPath": "C:\\Users\\thiagoalcantara\\Documents\\Projetos\\Pessoal\\netcoreApi\\src\\Api.Domain\\Domain.csproj"
@@ -1206,6 +1207,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
