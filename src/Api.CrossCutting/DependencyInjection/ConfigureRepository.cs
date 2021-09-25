@@ -11,15 +11,10 @@ namespace Api.CrossCutting.DependencyInjection
 {
     public class ConfigureRepository
     {
-        private static ILogger<ConfigureRepository> _logger;
-
-        public ConfigureRepository(ILogger<ConfigureRepository> logger)
-        {
-            _logger = logger;
-        }
-
+ 
         public static void ConfigureDependencyRepository(IServiceCollection serviceCollection)
         {
+
             serviceCollection.AddScoped(typeof(IRepository<>), typeof(BaseRepository<>));
             serviceCollection.AddScoped<IUserRepository, UserRepository>();
 
@@ -28,15 +23,12 @@ namespace Api.CrossCutting.DependencyInjection
             var dbVersion = Environment.GetEnvironmentVariable("MYSQL_VERSION");
 
             var connection = MYSQL_CONNECTION + $";Database={MYSQL_DATABASE};";
-            _logger.LogInformation($"connectionstring--> {connection}");
 
             serviceCollection.AddDbContext<MyContext>(o => o.UseMySql(connection, new MySqlServerVersion(new Version(dbVersion))));
         }
 
         public static void ConfigureMgrationDatabase(IServiceScope service)
         {
-            _logger.LogInformation("Migração da base..");
-
             using (var context = service.ServiceProvider.GetService<MyContext>())
             {
                 context.Database.Migrate();
