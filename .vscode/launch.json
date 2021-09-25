@@ -30,8 +30,9 @@
                 "CONFIG_ENVIRONMENT": "development",
                 "LOG_LEVEL": "INFORMATION",
                 "LOG_FORMAT": "JSON",
-                "MYSQL_CONNECTION": "Server=localhost;Port=3306;Uid=root;Pwd=Admin",
+                "MYSQL_CONNECTION": "Server=localhost;Port=3306;Uid=admin;Pwd=13467900",
                 "MYSQL_DATABASE": "dbApi",
+                "MYSQL_VERSION": "5.7.30",
                 "MIGRATION":"APPLY"
             },
             "sourceFileMap": {

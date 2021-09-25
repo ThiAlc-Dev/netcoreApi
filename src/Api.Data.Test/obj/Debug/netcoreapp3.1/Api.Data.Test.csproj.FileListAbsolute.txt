@@ -35,7 +35,6 @@ C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Data.Test
 C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Data.Test\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Data.Test\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
 C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Data.Test\bin\Debug\netcoreapp3.1\Pomelo.EntityFrameworkCore.MySql.dll
-C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Data.Test\bin\Debug\netcoreapp3.1\Pomelo.JsonObject.dll
 C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Data.Test\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Data.Test\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
 C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Data.Test\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
@@ -139,8 +138,5 @@ C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Data.Test
 C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Data.Test\bin\Debug\netcoreapp3.1\application.pdb
 C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Data.Test\bin\Debug\netcoreapp3.1\Faker.NETCore.dll
 C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Data.Test\bin\Debug\netcoreapp3.1\de-DE\Faker.NETCore.resources.dll
-C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Data.Test\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Data.Test\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
-C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Data.Test\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
 C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Data.Test\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Data.Test\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Data.Test\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll

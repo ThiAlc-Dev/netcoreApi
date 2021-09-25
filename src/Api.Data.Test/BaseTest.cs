@@ -18,13 +18,14 @@ namespace Api.Data.Test
             private static string dbName = $"dbApiTest_{Guid.NewGuid().ToString().Replace("-","")}";
 
             private string connString = $"Persist Security Info=True;server=localhost;database={dbName};User=root;Password=Admin";
+            private string dbVersion = "5.7.30";
             public ServiceProvider serviceProvider { get; private set; }
 
             public DbTeste()
             {
                 var serviceCollection = new ServiceCollection();
                 serviceCollection.AddDbContext<MyContext>(c=> 
-                c.UseMySql(connString),
+                c.UseMySql(connString, new MySqlServerVersion(new Version(dbVersion))),
                 ServiceLifetime.Transient
                 );
 

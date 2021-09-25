@@ -85,8 +85,6 @@ namespace application
                 endpoints.MapControllers();
             });
 
-            _logger.LogInformation($"variavel: {Environment.GetEnvironmentVariable("MIGRATION")}");
-
             if(Environment.GetEnvironmentVariable("MIGRATION").ToLower().Equals("apply"))
             {
                 using(var service = app.ApplicationServices.GetRequiredService<IServiceScopeFactory>().CreateScope())

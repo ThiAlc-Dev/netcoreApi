@@ -114,7 +114,6 @@ C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Applicati
 C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Application\bin\Debug\netcoreapp3.1\MySqlConnector.dll
 C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Application\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Application\bin\Debug\netcoreapp3.1\Pomelo.EntityFrameworkCore.MySql.dll
-C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Application\bin\Debug\netcoreapp3.1\Pomelo.JsonObject.dll
 C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Application\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Application\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Application\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -141,11 +140,7 @@ C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Applicati
 C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Application\obj\Debug\netcoreapp3.1\application.dll
 C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Application\obj\Debug\netcoreapp3.1\application.pdb
 C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Application\obj\Debug\netcoreapp3.1\application.genruntimeconfig.cache
-C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Application\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Application\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
-C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Application\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
 C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Application\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Application\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Application\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
 C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Application\obj\Debug\netcoreapp3.1\application.csproj.AssemblyReference.cache
 C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Application\obj\Debug\netcoreapp3.1\scopedcss\bundle\application.styles.css
-C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Application\obj\Debug\netcoreapp3.1\application.csprojAssemblyReference.cache
