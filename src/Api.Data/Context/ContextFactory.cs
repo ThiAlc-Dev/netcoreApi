@@ -10,11 +10,12 @@ namespace Api.Data.Context
         {
             var MYSQL_CONNECTION = Environment.GetEnvironmentVariable("MYSQL_CONNECTION");
             var MYSQL_DATABASE = Environment.GetEnvironmentVariable("MYSQL_DATABASE");
+            var dbVersion = Environment.GetEnvironmentVariable("MYSQL_VERSION");
 
             var connection = MYSQL_CONNECTION + $";Database={MYSQL_DATABASE};";
 
             var optionsBuilder = new DbContextOptionsBuilder<MyContext>();
-            optionsBuilder.UseMySql(connection)
+            optionsBuilder.UseMySql(connection, new MySqlServerVersion(new Version(dbVersion)))
                     .EnableSensitiveDataLogging(true)
                     .EnableDetailedErrors();
 
