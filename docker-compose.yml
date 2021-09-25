@@ -12,7 +12,7 @@ services:
     container_name: MySql_dbApi
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: Admin
+      MYSQL_ROOT_PASSWORD: 13467900
     ports:
       - 3306:3306
   api.application:
