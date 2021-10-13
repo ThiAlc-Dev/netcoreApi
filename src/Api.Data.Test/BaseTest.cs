@@ -17,7 +17,7 @@ namespace Api.Data.Test
         {
             private static string dbName = $"dbApiTest_{Guid.NewGuid().ToString().Replace("-","")}";
 
-            private string connString = $"Persist Security Info=True;server=localhost;database={dbName};User=root;Password=Admin";
+            private string connString = $"Persist Security Info=True;server=localhost;database={dbName};User=root;Password=13467900";
             private string dbVersion = "5.7.30";
             public ServiceProvider serviceProvider { get; private set; }
 
