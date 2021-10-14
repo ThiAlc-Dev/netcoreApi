@@ -33,4 +33,4 @@ C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Service\o
 C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Service\obj\Debug\netcoreapp3.1\Service.csproj.CopyComplete
 C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Service\obj\Debug\netcoreapp3.1\Service.dll
 C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Service\obj\Debug\netcoreapp3.1\Service.pdb
-c:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Service\obj\Debug\netcoreapp3.1\Service.csprojAssemblyReference.cache
+C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Service\obj\Debug\netcoreapp3.1\Service.csproj.AssemblyReference.cache
