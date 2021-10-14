@@ -115,7 +115,6 @@ C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Data.Test
 C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Data.Test\bin\Debug\netcoreapp3.1\CrossCutting.pdb
 C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Data.Test\bin\Debug\netcoreapp3.1\Domain.pdb
 C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Data.Test\bin\Debug\netcoreapp3.1\Service.pdb
-C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Data.Test\obj\Debug\netcoreapp3.1\Api.Data.Test.csprojAssemblyReference.cache
 C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Data.Test\obj\Debug\netcoreapp3.1\Api.Data.Test.AssemblyInfoInputs.cache
 C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Data.Test\obj\Debug\netcoreapp3.1\Api.Data.Test.AssemblyInfo.cs
 C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Data.Test\obj\Debug\netcoreapp3.1\Api.Data.Test.csproj.CoreCompileInputs.cache
@@ -125,7 +124,6 @@ C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Data.Test
 C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Data.Test\obj\Debug\netcoreapp3.1\Api.Data.Test.genruntimeconfig.cache
 C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Data.Test\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Data.Test\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Data.Test\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Data.Test\bin\Debug\netcoreapp3.1\application.exe
 C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Data.Test\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Data.Test\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
@@ -140,3 +138,7 @@ C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Data.Test
 C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Data.Test\bin\Debug\netcoreapp3.1\de-DE\Faker.NETCore.resources.dll
 C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Data.Test\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Data.Test\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Data.Test\bin\Debug\netcoreapp3.1\application.deps.json
+C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Data.Test\bin\Debug\netcoreapp3.1\application.runtimeconfig.json
+C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Data.Test\bin\Debug\netcoreapp3.1\application.runtimeconfig.dev.json
+C:\Users\thiagoalcantara\Documents\Projetos\Pessoal\netcoreApi\src\Api.Data.Test\obj\Debug\netcoreapp3.1\Api.Data.Test.csproj.AssemblyReference.cache
