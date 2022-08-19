@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
@@ -23,6 +24,29 @@ namespace Api.Application.SwaggerDoc
                         Email = "thiago.prog@outlook.com"
                     }
                 });
+
+                 s.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme() 
+                { 
+                    Name = "Authorization", 
+                    Type = SecuritySchemeType.ApiKey, 
+                    In = ParameterLocation.Header, 
+                    Description = "JWT Authorization header using the Bearer scheme"
+                }); 
+
+                s.AddSecurityRequirement(new OpenApiSecurityRequirement 
+                { 
+                    { 
+                          new OpenApiSecurityScheme 
+                          { 
+                              Reference = new OpenApiReference 
+                              { 
+                                  Type = ReferenceType.SecurityScheme, 
+                                  Id = "Bearer" 
+                              } 
+                          }, 
+                         new List<string> {} 
+                    } 
+                }); 
             });
         }
 

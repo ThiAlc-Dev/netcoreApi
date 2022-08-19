@@ -3,7 +3,7 @@ services:
   mysqlsrv:
     image: mysql:5.7
     command: --lower_case_table_names=1
-    container_name: MySql_app
+    container_name: api.mysql
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: "13467900"
@@ -16,11 +16,13 @@ services:
       - db-volume:/var/lib/mysql
   adminer:
     image: adminer
+    container_name: api.adminer
     ports: 
       - 8080:8080
     networks:
       - my-network
   api.application:
+    restart: always
     build:
       context: .
       dockerfile: Dockerfile
