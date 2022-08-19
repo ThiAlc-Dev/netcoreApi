@@ -1,20 +1,25 @@
 version: "3.1"
 services:
-  start_dependencies:
-    image: dadarek/wait-for-dependencies
-    container_name: db_dependency
-    depends_on:
-      - db
-    command: db:3306
-  db:
+  mysqlsrv:
     image: mysql:5.7
     command: --lower_case_table_names=1
-    container_name: MySql_dbApi
+    container_name: MySql_app
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: 13467900
+      MYSQL_ROOT_PASSWORD: "13467900"
+      MYSQL_DATABASE: "dbApi"
     ports:
-      - 3306:3306
+      - "3306:3306"
+    networks:
+      - my-network
+    volumes:
+      - db-volume:/var/lib/mysql
+  adminer:
+    image: adminer
+    ports: 
+      - 8080:8080
+    networks:
+      - my-network
   api.application:
     build:
       context: .
@@ -29,9 +34,18 @@ services:
       CONFIG_ENVIRONMENT: "development"
       LOG_LEVEL: "INFORMATION"
       LOG_FORMAT: "JSON"
-      MYSQL_CONNECTION: "Server=db;Port=3306;Uid=root;Pwd=13467900"
+      MYSQL_CONNECTION: "Server=mysqlsrv;Port=3306;Uid=root;Pwd=13467900;Database=dbApi"
       MYSQL_DATABASE: "dbApi"
       MYSQL_VERSION: "5.7.30"
       MIGRATION: "APPLY"
     ports:
-      - 5000:5000
+      - "5000:80"
+    networks:
+      - my-network
+    depends_on:
+      - "mysqlsrv"
+networks:
+  my-network:
+    driver: bridge
+volumes:
+  db-volume:

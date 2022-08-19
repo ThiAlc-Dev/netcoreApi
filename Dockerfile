@@ -8,5 +8,5 @@ RUN dotnet publish ./Api.Application --output /app/
 FROM mcr.microsoft.com/dotnet/aspnet:3.1
 WORKDIR /app
 COPY --from=builder /app .
-EXPOSE 5000
+EXPOSE 80
 ENTRYPOINT ["dotnet", "application.dll"]
