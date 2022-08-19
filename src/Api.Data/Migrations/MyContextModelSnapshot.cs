@@ -58,7 +58,7 @@ namespace Data.Migrations
                             CreateAt = new DateTime(2021, 7, 27, 0, 4, 42, 281, DateTimeKind.Utc).AddTicks(5449),
                             Email = "helpdeskprog@outlook.com",
                             Nome = "Administrador",
-                            Password = "6103945b4c627fa62b6649cbdbbab5493797cab452ed533ca66922cac7d63913"
+                            Password = "9847a26019ec09d9c3b510168fc158fb3264875ad295863bd8a3caad8270b819"
                         });
                 });
 #pragma warning restore 612, 618

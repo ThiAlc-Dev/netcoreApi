@@ -8,11 +8,8 @@ namespace Api.Data.Context
     {
         public MyContext CreateDbContext(string[] args)
         {
-            var MYSQL_CONNECTION = Environment.GetEnvironmentVariable("MYSQL_CONNECTION");
-            var MYSQL_DATABASE = Environment.GetEnvironmentVariable("MYSQL_DATABASE");
+            var connection = Environment.GetEnvironmentVariable("MYSQL_CONNECTION");
             var dbVersion = Environment.GetEnvironmentVariable("MYSQL_VERSION");
-
-            var connection = MYSQL_CONNECTION + $";Database={MYSQL_DATABASE};";
 
             var optionsBuilder = new DbContextOptionsBuilder<MyContext>();
             optionsBuilder.UseMySql(connection, new MySqlServerVersion(new Version(dbVersion)))
