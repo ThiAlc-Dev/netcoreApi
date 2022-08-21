@@ -7,7 +7,7 @@ phases:
       - echo logging in to Amazon ECR
       - aws --version
       - aws ecr get-login-password --region ${AWS_REGION} | docker login --username AWS --password-stdin ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com
-      - REPOSITORY_URI=${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/apinetcore:latest
+      - REPOSITORY_URI=${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${AWS_REPOSITORY_ECR}:latest
       - COMMIT_HASH=$(echo $CODEBUILD_SOURCE_VERSION | cut -c 1-7)
       - IMAGE_TAG=build-$(echo $CODEBUILD_BUILD_ID | awk -F":" '{print $2}')
       - AWS_TAG_BUILD=${REPOSITORY_URI}:${COMMIT_HASH}
@@ -23,12 +23,12 @@ phases:
       - dotnet publish -c release -o ./out src/Api.sln
       - echo building started docker image..
       - docker build -t apinetcore .
-      - docker tag apinetcore:latest ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/apinetcore:latest
+      - docker tag ${AWS_REPOSITORY_ECR}:latest ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${AWS_REPOSITORY_ECR}:latest
   post_build:
     commands:
       - echo Build completed on `date`
       - echo pushing the Docker images..
-      - docker push ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/apinetcore:latest
+      - docker push ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${AWS_REPOSITORY_ECR}:latest
       - echo writing image definitions file..
       - printf '[{"name":"app","imageUri":"%s"}]' $REPOSITORY_URI:$IMAGE_TAG > imagedefinitions.json
 artifacts:
