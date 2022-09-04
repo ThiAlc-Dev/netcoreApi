@@ -69,6 +69,8 @@ namespace application
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            Console.WriteLine($"environment: {env.EnvironmentName}");
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -84,6 +86,8 @@ namespace application
             {
                 endpoints.MapControllers();
             });
+
+            Console.WriteLine($"get env migration for create first db... 'env':{Environment.GetEnvironmentVariable("MIGRATION")}");
 
             if(Environment.GetEnvironmentVariable("MIGRATION").ToLower().Equals("apply"))
             {
