@@ -22,6 +22,10 @@ namespace Api.CrossCutting.DependencyInjection
             var MYSQL_DATABASE = Environment.GetEnvironmentVariable("MYSQL_DATABASE");
             var dbVersion = Environment.GetEnvironmentVariable("MYSQL_VERSION");
 
+            Console.WriteLine($"MYSQL_CONNECTION: {MYSQL_CONNECTION}");
+            Console.WriteLine($"MYSQL_DATABASE: {MYSQL_DATABASE}");
+            Console.WriteLine($"dbVersion: {dbVersion}");
+
             var connection = MYSQL_CONNECTION + $";Database={MYSQL_DATABASE};";
 
             serviceCollection.AddDbContext<MyContext>(o => o.UseMySql(connection, new MySqlServerVersion(new Version(dbVersion))));
