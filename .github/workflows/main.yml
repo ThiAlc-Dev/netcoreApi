@@ -12,8 +12,8 @@ jobs:
       - name: Criação da imagem docker
         uses: docker/build-push-action@v3.2.0
         with:
-          context: ./src
-          file: ./src/Dockerfile
+          context: .
+          file: ./Dockerfile
           push: true
           tags: |
             thiagoalcantara/ci-cd-teste:v1
