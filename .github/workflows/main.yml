@@ -13,8 +13,8 @@ jobs:
       - name: Autenticação no docker hub
       - uses: docker/login-action@2.1.0
         with: 
-          username: ${secrets.DOCKERHUB_SER}
-          password: ${secrets.DOCKERHUB_PWD}
+          username: ${{secrets.DOCKERHUB_SER}}
+          password: ${{secrets.DOCKERHUB_PWD}}
       
       - name: Criação da imagem docker
         uses: docker/build-push-action@v3.2.0
