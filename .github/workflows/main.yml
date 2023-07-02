@@ -1,0 +1,19 @@
+name: CI-CD Api
+
+on:
+  push:
+    branches: ["master"]
+    
+jobs:
+  CI:
+    runs-on: ubuntu-latest
+    steps: 
+      - uses: actions/checkout@v3.1.0
+      - name: Criação da imagem docker
+        uses: docker/build-push-ation@v3.2.0
+        with:
+          context: ./src
+          file: ./src/Dockerfile
+          push: true
+          tags: |
+            thiagoalcantara/ci-cd-teste:v1
