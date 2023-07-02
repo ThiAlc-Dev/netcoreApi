@@ -22,5 +22,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: |
-            thiagoalcantara/ci-cd-teste:v1
+          tags: thialcdev/ci-cd-teste
