@@ -2,7 +2,11 @@ name: CI-CD Api
 
 on:
   push:
-    branches: ["master"]  
+    branches: ["master"]
+    
+env:
+  DOTNET_VERSION: '3.1'
+  
 jobs:
   CI:
     runs-on: ubuntu-latest
@@ -23,3 +27,21 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: thialcdev/ci-cd-teste
+  CD:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup .NET Core
+        uses: actions/setup-dotnet@v3
+        with:
+            dotnet-version: ${{ env.DOTNET_VERSION }}
+
+      - name: Instalando dependências..
+        run: dotnet restore
+      
+      - name: Build..
+        run: |
+          cd DotNet.WebApp
+          dotnet build --configuration Release --no-restore
+          dotnet publish -c Release -o ./publishing -r linux-x64 --self-contained true /p:UseAppHost=true
+    
